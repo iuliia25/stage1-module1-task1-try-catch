@@ -29,7 +29,7 @@ public class ParseIntegers {
                 int number = Integer.parseInt(next);
                     sum += number;
                 }
-                catch (Exception i) {
+                catch (NumberFormatException i) {
                     justWords = justWords + " " + next;
                 }
         }
